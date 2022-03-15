@@ -1,9 +1,11 @@
 import React from 'react'
+import Header from '../main/home'
 
-export default function Login() {
+export function Login() {
   return (
     <div>
-        <h1>Eu sou o Login</h1>
+        <Header />
+        <h1 style={{color: 'red'}}>Eu sou o Login</h1>
     </div>
   )
 }

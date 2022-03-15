@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 //#484450, #466067, #459a96, #34baab, #c4c8c5
 
@@ -7,7 +8,7 @@ import styled from "styled-components";
 //#470B75, #B560F7, #9416F5, #562E75, #7611C2, #7E91CC
 
 export const Container = styled.div`
-position: fixed;
+//position: fixed;
 z-index: 999;
 width: 100vw;
 height: 13vh;
@@ -79,7 +80,7 @@ height: 13vh;
 border: none;
 `
 
-export const Btn = styled.a` 
+export const Btn = styled(Link)` 
 width: 70%;
 height: 100%;
 border: none;

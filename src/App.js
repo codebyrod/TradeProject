@@ -1,12 +1,23 @@
 import React from "react";
-import Header from "./components/header/index";
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import { GlobalStyle } from "./components/globalstyle";
+import Home from "./components/main/home"
+import { Register } from "./components/pages/register";
+import { Login } from "./components/pages/login";
+import Header from "./components/header/index";
 
 function App() {
   return (
     <div>
+      <Router>
       <Header />
-      <GlobalStyle />
+        <GlobalStyle />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
