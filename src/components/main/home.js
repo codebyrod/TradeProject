@@ -1,7 +1,8 @@
 import React from 'react'
+import Header from '../header/index'
 
-export default function Header() {
+export default function Home() {
   return (
-    <div style={{color: 'red'}}>home</div>
+    <Header />
   )
 }

@@ -18,13 +18,13 @@ function Header() {
                 <Link to="/register">Cadastre-se</Link>
               </S.ListItem>
               <S.ListItem>
-                <Link to="/about">Sobre</Link>
+                <Link /* to="/about" */ to="/">Sobre</Link>
               </S.ListItem>
               <S.ListItem>
-                <Link to="/start-investing">Começe a investir</Link>
+                <Link /* to="/start-investing" */ to="/">Começe a investir</Link>
               </S.ListItem>
               <S.ListItem>
-                <a href="/">Simulador</a>
+                <Link /* to='/simulator' */ to="/">Simulador</Link>
               </S.ListItem>
             </S.BoxItem>
             <S.BoxBtn>

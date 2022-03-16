@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 //#470B75, #B560F7, #9416F5, #562E75, #7611C2, #7E91CC
 
 export const Container = styled.div`
-//position: fixed;
+position: fixed;
 z-index: 999;
 width: 100vw;
 height: 13vh;
